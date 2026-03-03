@@ -1,0 +1,17 @@
+pdfplumber
+langchain
+langchain-community
+FlagEmbedding
+pinecone-client
+pinecone
+pinecone-text
+redis
+google-generativeai
+fastapi
+uvicorn
+pydantic
+python-dotenv
+ragas
+tiktoken
+numpy
+pytest

@@ -1,0 +1,22 @@
+[
+  {"question": "What is an agent loop in agentic systems?", "ground_truth": "An iterative cycle where an agent plans, acts, observes feedback, and updates state until a goal or stop condition is reached."},
+  {"question": "How does tool calling improve agent reliability?", "ground_truth": "Tool calling constrains actions to explicit interfaces, reducing hallucination and improving deterministic execution."},
+  {"question": "What is the role of memory in agentic architecture?", "ground_truth": "Memory stores prior context, observations, and decisions so the agent can maintain continuity across steps."},
+  {"question": "When should planners be separated from executors?", "ground_truth": "Separation is useful when strategic decomposition and low-level action execution have different latency and capability needs."},
+  {"question": "Why are evaluators used in agentic patterns?", "ground_truth": "Evaluators score outputs against quality criteria and drive retries, refinements, or selection among candidates."},
+  {"question": "What is reflection in agent design?", "ground_truth": "Reflection is a self-critique phase where the agent inspects its own output and revises based on detected issues."},
+  {"question": "How does retrieval grounding reduce hallucinations?", "ground_truth": "Grounding forces generation to rely on retrieved evidence, improving factuality and traceability with citations."},
+  {"question": "What does a router agent do?", "ground_truth": "A router agent classifies intent and dispatches requests to specialized sub-agents or tools."},
+  {"question": "How are retries typically controlled in agent workflows?", "ground_truth": "Retries are bounded with max-attempt counters and evaluator thresholds to avoid infinite loops."},
+  {"question": "What is a verifier pattern?", "ground_truth": "A verifier independently checks claims, constraints, or computations before finalizing an answer."},
+  {"question": "Why use structured output schemas for agents?", "ground_truth": "Structured schemas make downstream parsing deterministic and enable validation before execution."},
+  {"question": "How does context window management affect performance?", "ground_truth": "Better context selection improves relevance and reduces token cost and distraction from irrelevant text."},
+  {"question": "What is hierarchical task decomposition?", "ground_truth": "It breaks a complex goal into nested subtasks that can be solved and validated independently."},
+  {"question": "Why are stop conditions critical in autonomous loops?", "ground_truth": "Stop conditions prevent runaway behavior by terminating loops on success, failure, or budget limits."},
+  {"question": "What is a critique-and-revise cycle?", "ground_truth": "The model generates a draft, critiques it, then revises to improve quality before returning output."},
+  {"question": "How do agents handle tool execution failures?", "ground_truth": "They catch errors, log diagnostics, and either retry with adjusted parameters or fallback to alternate plans."},
+  {"question": "What is the benefit of chapter-level metadata in RAG?", "ground_truth": "It improves retrieval precision and enables user-facing citations tied to chapter and page."},
+  {"question": "How do bridge chunks help retrieval?", "ground_truth": "Bridge chunks capture transitions between adjacent chunks and preserve cross-boundary context."},
+  {"question": "Why combine dense and sparse retrieval?", "ground_truth": "Dense captures semantic similarity while sparse captures lexical exactness, improving recall together."},
+  {"question": "What does reranking do in a RAG pipeline?", "ground_truth": "Reranking reorders retrieved passages by relevance to the query before generation."}
+]
